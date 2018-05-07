@@ -1,27 +1,52 @@
-# Ng5crud
+# Project Management CRUD
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+Project Management CRUD having the functionalities as below :
+
+. Add Project (Project Name, Project Description , Project Start Date , Project End Date)
+. Edit Project
+. View All Created Projects
+. Delete Project
+
+Validation for Project Name and Project Description Fields
+
+Develop using Technologies
+
+. Angular5
+. Node Js
+. Express Js
+. MySql (Database)
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload.
 
-## Code scaffolding
+Pre-requisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1.)
+Need xampp installed on server to connect to mysql database
 
-## Build
+database file is placed in git folder by name "projectmanagement.sql"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+import that file to phpmyadmin by creating database "projectmanagement" locally.
 
-## Running unit tests
+phpmyadmin credentials to be use :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+username : root
+password : 
 
-## Running end-to-end tests
+Installation
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Take clone from
 
-## Further help
+$ git clone https://github.com/vishnubansalac/project-management-crud.git
+Install the dependencies and devDependencies and start the server.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+$ cd project-management
+
+
+Run command "ng serve" in one console on window platform and simultaneoulsy run command "node server" in second console
+$ npm install (first  console window by browsing git folder location)
+$ node server (second console window by browsing git folder location)
+
+
+
