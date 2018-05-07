@@ -3,8 +3,11 @@
 Project Management CRUD having the functionalities as below :
 
 . Add Project (Project Name, Project Description , Project Start Date , Project End Date)
+
 . Edit Project
+
 . View All Created Projects
+
 . Delete Project
 
 Validation for Project Name and Project Description Fields
@@ -12,8 +15,11 @@ Validation for Project Name and Project Description Fields
 Develop using Technologies
 
 . Angular5
+
 . Node Js
+
 . Express Js
+
 . MySql (Database)
 
 ## Development server
@@ -39,13 +45,16 @@ Installation
 Take clone from
 
 $ git clone https://github.com/vishnubansalac/project-management-crud.git
+
 Install the dependencies and devDependencies and start the server.
 
 $ cd project-management
 
 
 Run command "ng serve" in one console on window platform and simultaneoulsy run command "node server" in second console
+
 $ npm install (first  console window by browsing git folder location)
+
 $ node server (second console window by browsing git folder location)
 
 
